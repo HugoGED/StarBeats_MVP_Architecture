@@ -37,25 +37,20 @@ With the observer pattern, an object, known as the subject, keeps a list of depe
 
 The Conductor class is the song managing class that the rest of the rhythm game will be built on. This class tracks the song position, and controls any other synced actions. 
 
-It must contain the following variables:
+It contains the following variables:
 
-//Song beats per minute determined by the song you're trying to sync up to
-public float songBpm;
-//The number of seconds for each song beat
-public float secPerBeat;
-//Current song position, in seconds
-public float songPosition;
-//Current song position, in beats
-public float songPositionInBeats;
-//How many seconds have passed since the song started
-public float dspSongTime;
+- public float songBpm: Song beats per minute determined by the song you're trying to sync up to
+- public float secPerBeat: The number of seconds for each song beat
+- public float songPosition: Current song position, in seconds
+- public float songPositionInBeats: Current song position, in beats
+- public float dspSongTime: How many seconds have passed since the song started
 
 ## Coding Conventions
 
-Constants / static readonly : UPPER_SNAKE_CASE
-Class names / public methods : PascalCase
-Private fields               : _camelCase
-[SerializeField]             : private _camelCase
+- Constants / static readonly : UPPER_SNAKE_CASE
+- Class names / public methods : PascalCase
+- Private fields               : _camelCase
+- [SerializeField]             : private _camelCase
 
 
 **Prohibited:**
@@ -67,9 +62,9 @@ Private fields               : _camelCase
 ## Directory Structure
 
 Assets/_Project/Scripts/
-├── Domain/         # Pure C# — zero Unity dependency
-├── View/           # MonoBehaviour
-├── Presenter/      # 
+- ├── Domain/         # Pure C# — zero Unity dependency
+- ├── View/           # MonoBehaviour
+- ├── Presenter/      # 
 
 ---
 
