@@ -69,6 +69,5 @@ Assets/_Project/Scripts/
 ---
 
 ## Do NOT
-- Change the existing architecture without explicit approval
-- Use ScriptableObject as a runtime data store
+- Change the existing architecture
 - Manipulate Unity types (e.g. Vector3) directly inside Domain layer
