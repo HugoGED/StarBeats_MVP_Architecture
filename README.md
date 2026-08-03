@@ -18,12 +18,12 @@
 |-------|-----------|---------------|
 | Domain (Model) | `RythmGame.Domain` | Pure C#. No MonoBehaviour. Logic only |
 | View | `RythmGame.View` | MonoBehaviour. UI updates and input only |
-| Presenter | — | Connects Model ↔ View |
+| Presenter | `RythmGame.Presenter` | Connects Model ↔ View |
 
 ---
 ## Design Patterns (State)
 
-We use  the state design pattern in the GameplayScene. There are 3 states in total:
+The state design pattern is used in the GameplayScene. There are 3 states in total:
 1. IntroState: While the note reaches the rhythm timing line.
 2. PlayingState: The gameplay loop.
 3. GameoverState: Shows the final score of the player.
