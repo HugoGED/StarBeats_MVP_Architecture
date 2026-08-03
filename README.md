@@ -35,7 +35,7 @@ With the observer pattern, an object, known as the subject, keeps a list of depe
 
 ## Conductor Class
 
-The Conductor class is the song managing class that the rest of our rhythm game will be built on. This class tracks the song position, and controls any other synced actions. 
+The Conductor class is the song managing class that the rest of the rhythm game will be built on. This class tracks the song position, and controls any other synced actions. 
 
 It must contain the following variables:
 
